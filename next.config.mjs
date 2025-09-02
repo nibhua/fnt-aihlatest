@@ -11,7 +11,7 @@ const nextConfig = {
   },
 
   // 👇 Make Railway happy
-  output: "standalone",
+  //output: "standalone",
 
   env: {
     NEXT_PUBLIC_ADOBE_EMBED_API_KEY: process.env.ADOBE_EMBED_API_KEY,
