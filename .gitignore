@@ -1,0 +1,38 @@
+# Node dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+
+# Build artifacts
+dist/
+build/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+
+# Package manager locks (keep only one depending on what you use)
+bun.lock*
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Typescript
+*.tsbuildinfo
+
+# Optional: test coverage
+coverage/
