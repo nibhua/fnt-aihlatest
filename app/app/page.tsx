@@ -328,7 +328,6 @@ function AppPageContent() {
         setLegacyResults(data.results || [])
         setExpandedResults({})
         setShowN(Math.min(MIN_SHOW, (data.results || []).length || MIN_SHOW))
-        applyFirstHit(data.results?.[0])
         showToast("success", "Search Complete", `Fetched ${data.results?.length || 0} sections.`)
       } else {
         return
@@ -358,7 +357,6 @@ function AppPageContent() {
           setContextResults(data.results || [])
           setExpandedResults({})
           setShowN(Math.min(MIN_SHOW, (data.results || []).length || MIN_SHOW))
-          applyFirstHit(data.results?.[0])
           if ((data.results || []).length) {
             showToast("success", "Context Results", `Fetched ${data.results.length} sections for your selection.`)
           }
